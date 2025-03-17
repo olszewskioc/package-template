@@ -1,27 +1,34 @@
-# package_name
+# image_processing
 
 Description. 
-The package package_name is used to:
-	- 
-	-
+The package image_processing is used to:
+	- Processing
+		- combination
+		- filters
+		- transformation
+	- Utils
+		- io
+		- plot
 
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
 
 ```bash
-pip install package_name
+pip install image_processing
 ```
 
 ## Usage
 
 ```python
-from package_name.module1_name import file1_name
-file1_name.my_function()
+from image_processing.processing import combination, filters, transformation
+from image_processing.utils import io, plot
+
+plot.plot_result(img1, img2, img_result)
 ```
 
 ## Author
-My_name
+Thiago Olszewski de Carvalho
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
